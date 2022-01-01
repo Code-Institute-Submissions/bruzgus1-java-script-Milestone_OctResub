@@ -1,0 +1,292 @@
+.container {
+    height: 50em;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+/* Answer box style */
+
+.container .answer {
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+    height: 17%;
+    background-color: rgb(55, 49, 49);
+    color: white;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+}
+
+/* First Row styles */
+
+.first {
+    display: flex;
+    justify-content: center;
+    height: 17%;
+
+}
+
+.first .clear {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    background-color: rgb(70, 70, 70);
+    color: white;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+}
+
+.first .square-root {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    background-color: rgb(70, 70, 70);
+    color: white;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+}
+
+.first .precent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    background-color: rgb(70, 70, 70);
+    color: white;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+}
+
+.first .divide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    background-color: orange;
+    color: white;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+}
+
+/* Second Row styles */
+
+.second {
+    display: flex;
+    justify-content: center;
+    height: 17%;
+
+}
+
+.second .seven {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    background-color: rgb(70, 70, 70);
+    color: white;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+}
+
+.second .eight {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    background-color: rgb(70, 70, 70);
+    color: white;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+}
+
+.second .nine {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    background-color: rgb(70, 70, 70);
+    color: white;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+}
+
+.second .multiply {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    background-color: orange;
+    color: white;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+}
+
+/* Third Row styles */
+
+.third {
+    display: flex;
+    justify-content: center;
+    height: 17%;
+
+}
+
+.third .four {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    background-color: rgb(70, 70, 70);
+    color: white;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+}
+
+.third .five {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    background-color: rgb(70, 70, 70);
+    color: white;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+}
+
+.third .six {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    background-color: rgb(70, 70, 70);
+    color: white;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+}
+
+.third .minus {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    background-color: orange;
+    color: white;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+}
+
+/* Fourth Row styles */
+
+.fourth {
+    display: flex;
+    justify-content: center;
+    height: 17%;
+
+}
+
+.fourth .one {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    background-color: rgb(70, 70, 70);
+    color: white;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+}
+
+.fourth .two {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    background-color: rgb(70, 70, 70);
+    color: white;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+}
+
+.fourth .three {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    background-color: rgb(70, 70, 70);
+    color: white;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+}
+
+.fourth .plus {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    background-color: orange;
+    color: white;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+}
+
+/* Fifth Row styles */
+
+.fifth {
+    display: flex;
+    justify-content: center;
+    height: 16.5%;
+
+}
+
+.fifth .zero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50.5%;
+    background-color: rgb(70, 70, 70);
+    color: white;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+}
+
+.fifth .decimal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    background-color: rgb(70, 70, 70);
+    color: white;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+}
+
+.fifth .equal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    background-color: orange;
+    color: white;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+}
