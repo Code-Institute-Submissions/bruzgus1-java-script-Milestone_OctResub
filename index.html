@@ -11,32 +11,34 @@
 
 <body>
     <div class="container">
-        <div class="answer">
-            <span>0</span>
+        <div class="answer-box">
+            <span id="num1">0</span>
+            <span id="operator"></span>
+            <span id="num2"></span>
         </div>
         <div class="first">
-            <div class="clear"><span>C</span></div>
-            <div class="square-root"><span>√x</span></div>
-            <div class="precent"><span>%</span></div>
-            <div class="divide"><span>/</span></div>
+            <div class="clear" onclick="erase()"><span>C</span></div>
+            <div class="square-root" onclick="square()"><span>√x</span></div>
+            <div class="precent" onclick="precent()"><span>%</span></div>
+            <div class="divide" onclick="divide()"><span>/</span></div>
         </div>
         <div class="second">
-            <div class="seven"><span>7</span></div>
-            <div class="eight"><span>8</span></div>
-            <div class="nine"><span>9</span></div>
-            <div class="multiply"><span>X</span></div>
+            <div class="seven" onclick="seven()"><span>7</span></div>
+            <div class="eight" onclick="eight()"><span>8</span></div>
+            <div class="nine" onclick="nine()"><span>9</span></div>
+            <div class="multiply" onclick="multiply()"><span>X</span></div>
         </div>
         <div class="third">
-            <div class="four"><span>4</span></div>
-            <div class="five"><span>5</span></div>
-            <div class="six"><span>6</span></div>
-            <div class="minus"><span>-</span></div>
+            <div class="four" onclick="four()"><span>4</span></div>
+            <div class="five" onclick="five()"><span>5</span></div>
+            <div class="six" onclick="six()"><span>6</span></div>
+            <div class="minus" onclick="minus()"><span>-</span></div>
         </div>
         <div class="fourth">
-            <div class="one"><span>1</span></div>
-            <div class="two"><span>2</span></div>
-            <div class="three"><span>3</span></div>
-            <div class="plus"><span>+</span></div>
+            <div class="one" onclick="one()"><span>1</span></div>
+            <div class="two" onclick="two()"><span>2</span></div>
+            <div class="three" onclick="three()"><span>3</span></div>
+            <div class="plus" onclick="plus()"><span>+</span></div>
         </div>
         <div class="fifth">
             <div class="zero"><span>0</span></div>
@@ -45,6 +47,8 @@
         </div>
 
     </div>
+
+    <script src="assets/js/script.js"></script>
 </body>
 
 </html>

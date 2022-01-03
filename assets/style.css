@@ -6,7 +6,7 @@
 
 /* Answer box style */
 
-.container .answer {
+.container .answer-box {
     display: flex;
     justify-content: end;
     align-items: flex-end;
@@ -16,6 +16,7 @@
     border-style: solid;
     border-color: black;
     border-width: 2px;
+    font-size: 400%;
 }
 
 /* First Row styles */
@@ -37,6 +38,7 @@
     border-style: solid;
     border-color: black;
     border-width: 2px;
+    font-size: 400%;
 }
 
 .first .square-root {
@@ -49,6 +51,7 @@
     border-style: solid;
     border-color: black;
     border-width: 2px;
+    font-size: 400%;
 }
 
 .first .precent {
@@ -61,6 +64,7 @@
     border-style: solid;
     border-color: black;
     border-width: 2px;
+    font-size: 400%;
 }
 
 .first .divide {
@@ -73,6 +77,7 @@
     border-style: solid;
     border-color: black;
     border-width: 2px;
+    font-size: 400%;
 }
 
 /* Second Row styles */
@@ -94,6 +99,7 @@
     border-style: solid;
     border-color: black;
     border-width: 2px;
+    font-size: 400%;
 }
 
 .second .eight {
@@ -106,6 +112,7 @@
     border-style: solid;
     border-color: black;
     border-width: 2px;
+    font-size: 400%;
 }
 
 .second .nine {
@@ -118,6 +125,7 @@
     border-style: solid;
     border-color: black;
     border-width: 2px;
+    font-size: 400%;
 }
 
 .second .multiply {
@@ -130,6 +138,7 @@
     border-style: solid;
     border-color: black;
     border-width: 2px;
+    font-size: 400%;
 }
 
 /* Third Row styles */
@@ -151,6 +160,7 @@
     border-style: solid;
     border-color: black;
     border-width: 2px;
+    font-size: 400%;
 }
 
 .third .five {
@@ -163,6 +173,7 @@
     border-style: solid;
     border-color: black;
     border-width: 2px;
+    font-size: 400%;
 }
 
 .third .six {
@@ -175,6 +186,7 @@
     border-style: solid;
     border-color: black;
     border-width: 2px;
+    font-size: 400%;
 }
 
 .third .minus {
@@ -187,6 +199,7 @@
     border-style: solid;
     border-color: black;
     border-width: 2px;
+    font-size: 400%;
 }
 
 /* Fourth Row styles */
@@ -208,6 +221,7 @@
     border-style: solid;
     border-color: black;
     border-width: 2px;
+    font-size: 400%;
 }
 
 .fourth .two {
@@ -220,6 +234,7 @@
     border-style: solid;
     border-color: black;
     border-width: 2px;
+    font-size: 400%;
 }
 
 .fourth .three {
@@ -232,6 +247,7 @@
     border-style: solid;
     border-color: black;
     border-width: 2px;
+    font-size: 400%;
 }
 
 .fourth .plus {
@@ -244,6 +260,7 @@
     border-style: solid;
     border-color: black;
     border-width: 2px;
+    font-size: 400%;
 }
 
 /* Fifth Row styles */
@@ -265,6 +282,7 @@
     border-style: solid;
     border-color: black;
     border-width: 2px;
+    font-size: 400%;
 }
 
 .fifth .decimal {
@@ -277,6 +295,7 @@
     border-style: solid;
     border-color: black;
     border-width: 2px;
+    font-size: 400%;
 }
 
 .fifth .equal {
@@ -289,4 +308,10 @@
     border-style: solid;
     border-color: black;
     border-width: 2px;
+    font-size: 400%;
+}
+
+
+button {
+    background-color: rgb(70, 70, 70);
 }
