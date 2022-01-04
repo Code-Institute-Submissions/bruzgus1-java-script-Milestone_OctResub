@@ -1,6 +1,7 @@
 let num1 = document.getElementById("num1")
 let operator = document.getElementById("operator")
 let num2 = document.getElementById("num2")
+let answer = document.getElementById("answer")
 
 // replaces the answer box numbers and operators to normal state
 
@@ -11,6 +12,8 @@ function erase() {
         num1.innerHTML = "0"
         operator.innerHTML = ""
         num2.innerHTML = ""
+        answer.innerHTML = ""
+        // window.location.reload(true) possible fix
     }
 }
 
@@ -215,4 +218,43 @@ function decimal() {
     } else {
 
     }
+}
+
+// calculated the correct answer
+function calculateAnswer(num1, num2) {
+    let number1 = parseFloat(document.getElementById("num1").textContent);
+    let number2 = parseFloat(document.getElementById("num2").textContent);
+
+    if (operator.innerHTML === "+") {
+        document.getElementById("answer").innerHTML = (number1 + number2);
+
+        num1 = document.getElementById("num1").innerHTML = ""
+        operator = document.getElementById("operator").innerHTML = ""
+        num2 = document.getElementById("num2").innerHTML = ""
+
+    } else if (operator.innerHTML === "-") {
+        document.getElementById("answer").innerHTML = (number1 - number2);
+
+        num1 = document.getElementById("num1").innerHTML = ""
+        operator = document.getElementById("operator").innerHTML = ""
+        num2 = document.getElementById("num2").innerHTML = ""
+
+    } else if (operator.innerHTML === "x") {
+        document.getElementById("answer").innerHTML = (number1 * number2);
+
+        num1 = document.getElementById("num1").innerHTML = ""
+        operator = document.getElementById("operator").innerHTML = ""
+        num2 = document.getElementById("num2").innerHTML = ""
+
+    } else if (operator.innerHTML === "÷") {
+        document.getElementById("answer").innerHTML = (number1 / number2);
+
+        num1 = document.getElementById("num1").innerHTML = ""
+        operator = document.getElementById("operator").innerHTML = ""
+        num2 = document.getElementById("num2").innerHTML = ""
+
+    } else {
+
+    }
+
 }
