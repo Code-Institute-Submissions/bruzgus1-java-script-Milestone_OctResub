@@ -41,7 +41,7 @@
     font-size: 400%;
 }
 
-.first .square-root {
+.first .cubed {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -54,7 +54,7 @@
     font-size: 400%;
 }
 
-.first .precent {
+.first .squared {
     display: flex;
     justify-content: center;
     align-items: center;
