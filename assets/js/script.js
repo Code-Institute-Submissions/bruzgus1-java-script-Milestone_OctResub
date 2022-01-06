@@ -2,7 +2,6 @@ let num1 = document.getElementById("num1")
 let operator = document.getElementById("operator")
 let num2 = document.getElementById("num2")
 let answer = document.getElementById("answer")
-
 // replaces the answer box numbers and operators to normal state
 
 function erase() {
@@ -13,7 +12,7 @@ function erase() {
         operator.innerHTML = ""
         num2.innerHTML = ""
         answer.innerHTML = ""
-        // window.location.reload(true) possible fix
+        window.location.reload(true)
     }
 }
 
@@ -213,10 +212,19 @@ function divide() {
 }
 
 function decimal() {
-    if (num1.innerHTML === "0") {
-        num1.innerHTML += "."
-    } else {
 
+    if (num1.innerHTML.includes(".")) {
+
+    } else {
+        num1.innerHTML += "."
+    }
+
+    if (operator.innerHTML === "") {
+
+    } else if (num2.innerHTML.includes(".")) {
+
+    } else {
+        num2.innerHTML += "."
     }
 }
 
@@ -226,28 +234,28 @@ function calculateAnswer(num1, num2) {
     let number2 = parseFloat(document.getElementById("num2").textContent);
 
     if (operator.innerHTML === "+") {
-        document.getElementById("answer").innerHTML = (number1 + number2);
+        document.getElementById("answer").innerHTML = parseFloat((number1 + number2).toFixed(2));
 
         num1 = document.getElementById("num1").innerHTML = ""
         operator = document.getElementById("operator").innerHTML = ""
         num2 = document.getElementById("num2").innerHTML = ""
 
     } else if (operator.innerHTML === "-") {
-        document.getElementById("answer").innerHTML = (number1 - number2);
+        document.getElementById("answer").innerHTML = parseFloat((number1 - number2).toFixed(2))
 
         num1 = document.getElementById("num1").innerHTML = ""
         operator = document.getElementById("operator").innerHTML = ""
         num2 = document.getElementById("num2").innerHTML = ""
 
     } else if (operator.innerHTML === "x") {
-        document.getElementById("answer").innerHTML = (number1 * number2);
+        document.getElementById("answer").innerHTML = parseFloat((number1 * number2).toFixed(2));
 
         num1 = document.getElementById("num1").innerHTML = ""
         operator = document.getElementById("operator").innerHTML = ""
         num2 = document.getElementById("num2").innerHTML = ""
 
     } else if (operator.innerHTML === "÷") {
-        document.getElementById("answer").innerHTML = (number1 / number2);
+        document.getElementById("answer").innerHTML = parseFloat((number1 / number2).toFixed(2));
 
         num1 = document.getElementById("num1").innerHTML = ""
         operator = document.getElementById("operator").innerHTML = ""
@@ -257,4 +265,90 @@ function calculateAnswer(num1, num2) {
 
     }
 
+}
+
+// squares the presented numbers
+
+function squared() {
+    let number1 = parseFloat(document.getElementById("num1").textContent);
+    let number2 = parseFloat(document.getElementById("num2").textContent);
+
+    if (operator.innerHTML === "") {
+        document.getElementById("answer").innerHTML = Math.pow(number1, 2);
+
+        num1 = document.getElementById("num1").innerHTML = ""
+    } else if (operator.innerHTML === "+") {
+        document.getElementById("answer").innerHTML = Math.pow((number1 + number2), 2);
+
+        num1 = document.getElementById("num1").innerHTML = ""
+        operator = document.getElementById("operator").innerHTML = ""
+        num2 = document.getElementById("num2").innerHTML = ""
+
+    } else if (operator.innerHTML === "-") {
+        document.getElementById("answer").innerHTML = Math.pow((number1 - number2), 2);
+
+        num1 = document.getElementById("num1").innerHTML = ""
+        operator = document.getElementById("operator").innerHTML = ""
+        num2 = document.getElementById("num2").innerHTML = ""
+
+    } else if (operator.innerHTML === "x") {
+        document.getElementById("answer").innerHTML = Math.pow((number1 * number2), 2);
+
+        num1 = document.getElementById("num1").innerHTML = ""
+        operator = document.getElementById("operator").innerHTML = ""
+        num2 = document.getElementById("num2").innerHTML = ""
+
+    } else if (operator.innerHTML === "÷") {
+        document.getElementById("answer").innerHTML = Math.pow((number1 / number2), 2);
+
+        num1 = document.getElementById("num1").innerHTML = ""
+        operator = document.getElementById("operator").innerHTML = ""
+        num2 = document.getElementById("num2").innerHTML = ""
+
+    } else {
+
+    }
+}
+
+// cubes the presented numbers
+
+function cubed() {
+    let number1 = parseFloat(document.getElementById("num1").textContent);
+    let number2 = parseFloat(document.getElementById("num2").textContent);
+
+    if (operator.innerHTML === "") {
+        document.getElementById("answer").innerHTML = Math.pow(number1, 3);
+
+        num1 = document.getElementById("num1").innerHTML = ""
+    } else if (operator.innerHTML === "+") {
+        document.getElementById("answer").innerHTML = Math.pow((number1 + number2), 3);
+
+        num1 = document.getElementById("num1").innerHTML = ""
+        operator = document.getElementById("operator").innerHTML = ""
+        num2 = document.getElementById("num2").innerHTML = ""
+
+    } else if (operator.innerHTML === "-") {
+        document.getElementById("answer").innerHTML = Math.pow((number1 - number2), 3);
+
+        num1 = document.getElementById("num1").innerHTML = ""
+        operator = document.getElementById("operator").innerHTML = ""
+        num2 = document.getElementById("num2").innerHTML = ""
+
+    } else if (operator.innerHTML === "x") {
+        document.getElementById("answer").innerHTML = Math.pow((number1 * number2), 3);
+
+        num1 = document.getElementById("num1").innerHTML = ""
+        operator = document.getElementById("operator").innerHTML = ""
+        num2 = document.getElementById("num2").innerHTML = ""
+
+    } else if (operator.innerHTML === "÷") {
+        document.getElementById("answer").innerHTML = Math.pow((number1 / number2), 3);
+
+        num1 = document.getElementById("num1").innerHTML = ""
+        operator = document.getElementById("operator").innerHTML = ""
+        num2 = document.getElementById("num2").innerHTML = ""
+
+    } else {
+
+    }
 }
