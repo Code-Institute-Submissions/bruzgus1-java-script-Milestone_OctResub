@@ -23,13 +23,17 @@ function zero() {
         if (num1.innerHTML === "0") {
 
         } else {
-            num1.innerHTML += "0"
+            if (num1.innerHTML.length <= 5) {
+                num1.innerHTML += "0"
+            }
         }
     } else {
         if (num2.innerHTML === "") {
             num2.innerHTML = "0."
         } else {
-            num2.innerHTML += "0"
+            if (num2.innerHTML.length <= 5) {
+                num2.innerHTML += "0"
+            }
         }
     }
 }
@@ -39,13 +43,17 @@ function one() {
         if (num1.innerHTML === "0") {
             num1.innerHTML = "1"
         } else {
-            num1.innerHTML += "1"
+            if (num1.innerHTML.length <= 5) {
+                num1.innerHTML += "1"
+            }
         }
     } else {
         if (num2.innerHTML === "") {
             num2.innerHTML = "1"
         } else {
-            num2.innerHTML += "1"
+            if (num2.innerHTML.length <= 5) {
+                num2.innerHTML += "1"
+            }
         }
     }
 }
@@ -55,13 +63,17 @@ function two() {
         if (num1.innerHTML === "0") {
             num1.innerHTML = "2"
         } else {
-            num1.innerHTML += "2"
+            if (num1.innerHTML.length <= 5) {
+                num1.innerHTML += "2"
+            }
         }
     } else {
         if (num2.innerHTML === "") {
             num2.innerHTML = "2"
         } else {
-            num2.innerHTML += "2"
+            if (num2.innerHTML.length <= 5) {
+                num2.innerHTML += "2"
+            }
         }
     }
 }
@@ -71,13 +83,17 @@ function three() {
         if (num1.innerHTML === "0") {
             num1.innerHTML = "3"
         } else {
-            num1.innerHTML += "3"
+            if (num1.innerHTML.length <= 5) {
+                num1.innerHTML += "3"
+            }
         }
     } else {
         if (num2.innerHTML === "") {
             num2.innerHTML = "3"
         } else {
-            num2.innerHTML += "3"
+            if (num2.innerHTML.length <= 5) {
+                num2.innerHTML += "3"
+            }
         }
     }
 }
@@ -87,13 +103,17 @@ function four() {
         if (num1.innerHTML === "0") {
             num1.innerHTML = "4"
         } else {
-            num1.innerHTML += "4"
+            if (num1.innerHTML.length <= 5) {
+                num1.innerHTML += "4"
+            }
         }
     } else {
         if (num2.innerHTML === "") {
             num2.innerHTML = "4"
         } else {
-            num2.innerHTML += "4"
+            if (num2.innerHTML.length <= 5) {
+                num2.innerHTML += "4"
+            }
         }
     }
 }
@@ -103,13 +123,17 @@ function five() {
         if (num1.innerHTML === "0") {
             num1.innerHTML = "5"
         } else {
-            num1.innerHTML += "5"
+            if (num1.innerHTML.length <= 5) {
+                num1.innerHTML += "5"
+            }
         }
     } else {
         if (num2.innerHTML === "") {
             num2.innerHTML = "5"
         } else {
-            num2.innerHTML += "5"
+            if (num2.innerHTML.length <= 5) {
+                num2.innerHTML += "5"
+            }
         }
     }
 }
@@ -119,13 +143,17 @@ function six() {
         if (num1.innerHTML === "0") {
             num1.innerHTML = "6"
         } else {
-            num1.innerHTML += "6"
+            if (num1.innerHTML.length <= 5) {
+                num1.innerHTML += "6"
+            }
         }
     } else {
         if (num2.innerHTML === "") {
             num2.innerHTML = "6"
         } else {
-            num2.innerHTML += "6"
+            if (num2.innerHTML.length <= 5) {
+                num2.innerHTML += "6"
+            }
         }
     }
 }
@@ -135,13 +163,17 @@ function seven() {
         if (num1.innerHTML === "0") {
             num1.innerHTML = "7"
         } else {
-            num1.innerHTML += "7"
+            if (num1.innerHTML.length <= 5) {
+                num1.innerHTML += "7"
+            }
         }
     } else {
         if (num2.innerHTML === "") {
             num2.innerHTML = "7"
         } else {
-            num2.innerHTML += "7"
+            if (num2.innerHTML.length <= 5) {
+                num2.innerHTML += "7"
+            }
         }
     }
 }
@@ -151,13 +183,17 @@ function eight() {
         if (num1.innerHTML === "0") {
             num1.innerHTML = "8"
         } else {
-            num1.innerHTML += "8"
+            if (num1.innerHTML.length <= 5) {
+                num1.innerHTML += "8"
+            }
         }
     } else {
         if (num2.innerHTML === "") {
             num2.innerHTML = "8"
         } else {
-            num2.innerHTML += "8"
+            if (num2.innerHTML.length <= 5) {
+                num2.innerHTML += "8"
+            }
         }
     }
 }
@@ -167,13 +203,17 @@ function nine() {
         if (num1.innerHTML === "0") {
             num1.innerHTML = "9"
         } else {
-            num1.innerHTML += "9"
+            if (num1.innerHTML.length <= 5) {
+                num1.innerHTML += "9"
+            }
         }
     } else {
         if (num2.innerHTML === "") {
             num2.innerHTML = "9"
         } else {
-            num2.innerHTML += "9"
+            if (num2.innerHTML.length <= 5) {
+                num2.innerHTML += "9"
+            }
         }
     }
 }
