@@ -57,6 +57,8 @@ This website based calculator was created to handle basic, non complicated calcu
         - The HTML for the site's three pages was passed through the W3C Markup Validation Service, and no errors or warnings were found.
     - **CSS**
         - The site's CSS was passed through the W3C CSS Validation Service, and no errors were found.
+    - **JavaScript**
+        - the site's JavaScript was passed through the JSHint JavaScript Validator, and no errors were found
 
 **Testing User Stories from User Experience (UX) Section**
 - As a user I want to understand the purpose of the website.
@@ -69,6 +71,8 @@ This website based calculator was created to handle basic, non complicated calcu
 
 ## Automated Testing
 - Each page of the site was evaluated using Lighthouse to assess them on four metrics; Performance, Accessibility, Best Practices & Search Engine Optimization (SEO).
+
+![lighthouse scores screenshot](/assets/images/scores.png)
 
 ## Manual Testing 
 
