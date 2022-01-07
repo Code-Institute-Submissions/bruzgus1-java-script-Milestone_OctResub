@@ -1,108 +1,121 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Project Goals
+[View the live project here.]()
 
-Welcome bruzgus1,
+This website based calculator was created to handle basic, non complicated calculations
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+**User Goals:**
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+- To Calculate the correct answer
 
-## Gitpod Reminders
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+**Site Owner Goals:**
+- To allow the user to calculate the equation they want
 
-`python3 -m http.server`
+![how the website looks on diffrent devices](/assets/images/am-i-responsive.png)
 
-A blue button should appear to click: _Make Public_,
 
-Another blue button should appear to click: _Open Browser_.
+## User Experience (UX)
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+- **User Stories**
+    - As a user I want to understand the purpose of the website.
+    - As a user I want to be able to add the equation I want
+    - As a user I want to get the correct answer
+- **Design**
+    - **Colour Scheme** 
+        - The design was copied from the Iphone calculator
+- **Wireframes**
+    - Page Wireframe - [View](/wireframes/home.webp)
 
-A blue button should appear to click: _Make Public_,
 
-Another blue button should appear to click: _Open Browser_.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+## Features
 
-To log into the Heroku toolbelt CLI:
+1. **Answer Box**
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+![answer box screenshot](/assets/images/answer-box.png)
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+    - The place where the user types in his equation that he wants calculated
+    - The place where the user is shown the correct answer
+2. **The Buttons**
 
-------
+![The buttons screenshot](/assets/images/buttons.png)
 
-## Release History
+    - The buttons the user clicks to get the desired outcome
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+## Technologies Used
+- HTML5 - the pages of this site were designed using HTML.
+- CSS3 - the pages of this site were styled using CSS.
+- GitPod - the site was developed using Gitpod as the development environment.
+- GitHub - GitHub is used to store the projects code after being pushed from GitPod.
+- Balsalmic - Balsamic was used to make the wireframes for the website.
+- JavaScript - JavaScript is used to manipulate the needed HTML5 elements
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+## Testing
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+ - **Validation:**
+    - **HTML**
+        - The HTML for the site's three pages was passed through the W3C Markup Validation Service, and no errors or warnings were found.
+    - **CSS**
+        - The site's CSS was passed through the W3C CSS Validation Service, and no errors were found.
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+**Testing User Stories from User Experience (UX) Section**
+- As a user I want to understand the purpose of the website.
+    - The Home page that has the calculator shows what exactly is the purpose of this site
+- As a user I want to be able to add the equation I want
+    - The buttons on the calculator are easy to understand without needing any king of explanation
+- As a user I want to get the correct answer
+    - Once the equation is written the user has to press the equal button to get the correct answer 
+    
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+## Automated Testing
+- Each page of the site was evaluated using Lighthouse to assess them on four metrics; Performance, Accessibility, Best Practices & Search Engine Optimization (SEO).
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+## Manual Testing 
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+- **Testing Environments**
+Development and initial testing took place on a MacBook Air in Chrome. Subsequent testing took place across the following devices, operating systems and browsers:
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+- Devices:
+    - MacBook Air 2013 (MacOS).
+    - Iphone Xs Max (MacOS).
+    - Iphone 11 (MacOS).
+    - Ipad Pro (MacOS).
+    - Samsung Galaxy A21s (Android).
+    - Huawei P30 Litle (Android).
+    - Huawei p40 little jny-lx1 (Android).
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+- Browsers:
+    - Brave Browser.
+    - Google Chrome.
+    - Safari.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+## Deployment
+This site was developed in Gitpod, committed and pushed to Github, and deployed on GitHub Pages.
+ ### the following steps were taken to deploy this site
+1. Logged in Github and navigated to the site's repository.
+2. Clicked on **Settings** in the toolbar near the top of the screen.
+3. Clicked on **Pages** on the left side of the **Settings** page.
+4. Under the **Source** heading, clicked on the **Branch** dropdown, and selected **Main**.
+5. Clicked on **Save**, deploying the site.
+6. Clicked on the URL at the top of the **GitHub Pages** section to navigate to the live site.
+7. *More info on deploying to **GitHub Pages** can be found [here](https://docs.github.com/en/github/working-with-github-pages/creating-a-github-pages-site#creating-your-site).*
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+### To run and edit the code for this site locally, follow these steps:
+* Log in to GitHub and navigate to the site's **[repository](https://github.com/bruzgus1/java-script-Milestone)**.
+* Click on the green **Code** button.
+* Copy the URL under **Clone with HTTPS** by clicking on the **Copy** button.
+* Open the terminal in your IDE, and navigate to the desired directory.
+* Type `git clone` into the terminal, and paste in the copied URL, e.g.,  
+``git clone https://github.com/bruzgus1/java-script-Milestone``
+* Press enter to clone the repository.
+* *More info on cloning a **GitHub** repository can be found [here](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository).*
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+The live link can be found [Here]()
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+## Credits
+- Code Institute Tutor Support - The best help anyone could ask for.
+- My Mentor
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+## Plagiarism
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
+- The design was taken and based on the calculator that is on every Apple device
