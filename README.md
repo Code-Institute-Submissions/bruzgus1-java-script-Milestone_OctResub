@@ -1,5 +1,5 @@
 # Project Goals
-[View the live project here.]()
+[View the live project here.](https://bruzgus1.github.io/java-script-Milestone/)
 
 This website based calculator was created to handle basic, non complicated calculations
 
@@ -110,7 +110,7 @@ This site was developed in Gitpod, committed and pushed to Github, and deployed 
 * Press enter to clone the repository.
 * *More info on cloning a **GitHub** repository can be found [here](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository).*
 
-The live link can be found [Here]()
+The live link can be found [Here](https://bruzgus1.github.io/java-script-Milestone/)
 
 ## Credits
 - Code Institute Tutor Support - The best help anyone could ask for.
