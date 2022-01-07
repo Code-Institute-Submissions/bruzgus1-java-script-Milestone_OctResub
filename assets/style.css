@@ -312,6 +312,16 @@
 }
 
 
-button {
-    background-color: rgb(70, 70, 70);
+@media screen and (max-width: 730px) {
+    .container {
+        height: 50em;
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+
+    .container .answer-box {
+        display: flex;
+        justify-content: end;
+        align-items: flex-end;
+    }
 }
