@@ -24,7 +24,8 @@ This website based calculator was created to handle basic, non complicated calcu
     - **Colour Scheme** 
         - The design was copied from the Iphone calculator
 - **Wireframes**
-    - Page Wireframe - [View](/wireframes/home.webp)
+    - Page Wireframe - [View](/assets/images/home.png)
+    - Mobile Version Wireframe - [View](/assets/images/mobile.png)
 
 
 
@@ -92,6 +93,16 @@ Development and initial testing took place on a MacBook Air in Chrome. Subsequen
     - Brave Browser.
     - Google Chrome.
     - Safari.
+
+## Bugs 
+
+1. When checking the console on Brave Browser the console gives an error, that does not happen on other browsers or in a private browse window
+![console bug screenshot](/assets/images/bug1.png)
+
+2. After getting the calculated answer the calculator breaks when you wanna calculate again, to fix this when the user clicks to clear the calculator, it reloads the entire page and sets the calculator back to square 1, fixing the issue
+3. In Safari the calculator does everything on the left side instead of the right 
+![safari bug screenshot](/assets/images/bug2.png)
+
 
 ## Deployment
 This site was developed in Gitpod, committed and pushed to Github, and deployed on GitHub Pages.

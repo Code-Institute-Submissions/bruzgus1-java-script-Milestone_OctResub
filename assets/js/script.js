@@ -8,10 +8,6 @@ function erase() {
     if (num1.innerHTML === "0") {
 
     } else {
-        num1.innerHTML = "0"
-        operator.innerHTML = ""
-        num2.innerHTML = ""
-        answer.innerHTML = ""
         window.location.reload(true)
     }
 }
