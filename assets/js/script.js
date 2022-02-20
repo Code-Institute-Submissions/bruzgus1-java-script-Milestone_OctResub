@@ -15,200 +15,220 @@ function erase() {
 // adds the correct numbers in the answer box
 
 function zero() {
-    if (operator.innerHTML === "") {
-        if (num1.innerHTML === "0") {
+    if (answer.innerHTML === "") {
+        if (operator.innerHTML === "") {
+            if (num1.innerHTML === "0") {
 
-        } else {
-            if (num1.innerHTML.length <= 5) {
-                num1.innerHTML += "0"
+            } else {
+                if (num1.innerHTML.length <= 5) {
+                    num1.innerHTML += "0"
+                }
             }
-        }
-    } else {
-        if (num2.innerHTML === "") {
-            num2.innerHTML = "0."
         } else {
-            if (num2.innerHTML.length <= 5) {
-                num2.innerHTML += "0"
+            if (num2.innerHTML === "") {
+                num2.innerHTML = "0."
+            } else {
+                if (num2.innerHTML.length <= 5) {
+                    num2.innerHTML += "0"
+                }
             }
         }
     }
 }
 
 function one() {
-    if (operator.innerHTML === "") {
-        if (num1.innerHTML === "0") {
-            num1.innerHTML = "1"
-        } else {
-            if (num1.innerHTML.length <= 5) {
-                num1.innerHTML += "1"
+    if (answer.innerHTML === "") {
+        if (operator.innerHTML === "") {
+            if (num1.innerHTML === "0") {
+                num1.innerHTML = "1"
+            } else {
+                if (num1.innerHTML.length <= 5) {
+                    num1.innerHTML += "1"
+                }
             }
-        }
-    } else {
-        if (num2.innerHTML === "") {
-            num2.innerHTML = "1"
         } else {
-            if (num2.innerHTML.length <= 5) {
-                num2.innerHTML += "1"
+            if (num2.innerHTML === "") {
+                num2.innerHTML = "1"
+            } else {
+                if (num2.innerHTML.length <= 5) {
+                    num2.innerHTML += "1"
+                }
             }
         }
     }
 }
 
 function two() {
-    if (operator.innerHTML === "") {
-        if (num1.innerHTML === "0") {
-            num1.innerHTML = "2"
-        } else {
-            if (num1.innerHTML.length <= 5) {
-                num1.innerHTML += "2"
+    if (answer.innerHTML === "") {
+        if (operator.innerHTML === "") {
+            if (num1.innerHTML === "0") {
+                num1.innerHTML = "2"
+            } else {
+                if (num1.innerHTML.length <= 5) {
+                    num1.innerHTML += "2"
+                }
             }
-        }
-    } else {
-        if (num2.innerHTML === "") {
-            num2.innerHTML = "2"
         } else {
-            if (num2.innerHTML.length <= 5) {
-                num2.innerHTML += "2"
+            if (num2.innerHTML === "") {
+                num2.innerHTML = "2"
+            } else {
+                if (num2.innerHTML.length <= 5) {
+                    num2.innerHTML += "2"
+                }
             }
         }
     }
 }
 
 function three() {
-    if (operator.innerHTML === "") {
-        if (num1.innerHTML === "0") {
-            num1.innerHTML = "3"
-        } else {
-            if (num1.innerHTML.length <= 5) {
-                num1.innerHTML += "3"
+    if (answer.innerHTML === "") {
+        if (operator.innerHTML === "") {
+            if (num1.innerHTML === "0") {
+                num1.innerHTML = "3"
+            } else {
+                if (num1.innerHTML.length <= 5) {
+                    num1.innerHTML += "3"
+                }
             }
-        }
-    } else {
-        if (num2.innerHTML === "") {
-            num2.innerHTML = "3"
         } else {
-            if (num2.innerHTML.length <= 5) {
-                num2.innerHTML += "3"
+            if (num2.innerHTML === "") {
+                num2.innerHTML = "3"
+            } else {
+                if (num2.innerHTML.length <= 5) {
+                    num2.innerHTML += "3"
+                }
             }
         }
     }
 }
 
 function four() {
-    if (operator.innerHTML === "") {
-        if (num1.innerHTML === "0") {
-            num1.innerHTML = "4"
-        } else {
-            if (num1.innerHTML.length <= 5) {
-                num1.innerHTML += "4"
+    if (answer.innerHTML === "") {
+        if (operator.innerHTML === "") {
+            if (num1.innerHTML === "0") {
+                num1.innerHTML = "4"
+            } else {
+                if (num1.innerHTML.length <= 5) {
+                    num1.innerHTML += "4"
+                }
             }
-        }
-    } else {
-        if (num2.innerHTML === "") {
-            num2.innerHTML = "4"
         } else {
-            if (num2.innerHTML.length <= 5) {
-                num2.innerHTML += "4"
+            if (num2.innerHTML === "") {
+                num2.innerHTML = "4"
+            } else {
+                if (num2.innerHTML.length <= 5) {
+                    num2.innerHTML += "4"
+                }
             }
         }
     }
 }
 
 function five() {
-    if (operator.innerHTML === "") {
-        if (num1.innerHTML === "0") {
-            num1.innerHTML = "5"
-        } else {
-            if (num1.innerHTML.length <= 5) {
-                num1.innerHTML += "5"
+    if (answer.innerHTML === "") {
+        if (operator.innerHTML === "") {
+            if (num1.innerHTML === "0") {
+                num1.innerHTML = "5"
+            } else {
+                if (num1.innerHTML.length <= 5) {
+                    num1.innerHTML += "5"
+                }
             }
-        }
-    } else {
-        if (num2.innerHTML === "") {
-            num2.innerHTML = "5"
         } else {
-            if (num2.innerHTML.length <= 5) {
-                num2.innerHTML += "5"
+            if (num2.innerHTML === "") {
+                num2.innerHTML = "5"
+            } else {
+                if (num2.innerHTML.length <= 5) {
+                    num2.innerHTML += "5"
+                }
             }
         }
     }
 }
 
 function six() {
-    if (operator.innerHTML === "") {
-        if (num1.innerHTML === "0") {
-            num1.innerHTML = "6"
-        } else {
-            if (num1.innerHTML.length <= 5) {
-                num1.innerHTML += "6"
+    if (answer.innerHTML === "") {
+        if (operator.innerHTML === "") {
+            if (num1.innerHTML === "0") {
+                num1.innerHTML = "6"
+            } else {
+                if (num1.innerHTML.length <= 5) {
+                    num1.innerHTML += "6"
+                }
             }
-        }
-    } else {
-        if (num2.innerHTML === "") {
-            num2.innerHTML = "6"
         } else {
-            if (num2.innerHTML.length <= 5) {
-                num2.innerHTML += "6"
+            if (num2.innerHTML === "") {
+                num2.innerHTML = "6"
+            } else {
+                if (num2.innerHTML.length <= 5) {
+                    num2.innerHTML += "6"
+                }
             }
         }
     }
 }
 
 function seven() {
-    if (operator.innerHTML === "") {
-        if (num1.innerHTML === "0") {
-            num1.innerHTML = "7"
-        } else {
-            if (num1.innerHTML.length <= 5) {
-                num1.innerHTML += "7"
+    if (answer.innerHTML === "") {
+        if (operator.innerHTML === "") {
+            if (num1.innerHTML === "0") {
+                num1.innerHTML = "7"
+            } else {
+                if (num1.innerHTML.length <= 5) {
+                    num1.innerHTML += "7"
+                }
             }
-        }
-    } else {
-        if (num2.innerHTML === "") {
-            num2.innerHTML = "7"
         } else {
-            if (num2.innerHTML.length <= 5) {
-                num2.innerHTML += "7"
+            if (num2.innerHTML === "") {
+                num2.innerHTML = "7"
+            } else {
+                if (num2.innerHTML.length <= 5) {
+                    num2.innerHTML += "7"
+                }
             }
         }
     }
 }
 
 function eight() {
-    if (operator.innerHTML === "") {
-        if (num1.innerHTML === "0") {
-            num1.innerHTML = "8"
-        } else {
-            if (num1.innerHTML.length <= 5) {
-                num1.innerHTML += "8"
+    if (answer.innerHTML === "") {
+        if (operator.innerHTML === "") {
+            if (num1.innerHTML === "0") {
+                num1.innerHTML = "8"
+            } else {
+                if (num1.innerHTML.length <= 5) {
+                    num1.innerHTML += "8"
+                }
             }
-        }
-    } else {
-        if (num2.innerHTML === "") {
-            num2.innerHTML = "8"
         } else {
-            if (num2.innerHTML.length <= 5) {
-                num2.innerHTML += "8"
+            if (num2.innerHTML === "") {
+                num2.innerHTML = "8"
+            } else {
+                if (num2.innerHTML.length <= 5) {
+                    num2.innerHTML += "8"
+                }
             }
         }
     }
 }
 
 function nine() {
-    if (operator.innerHTML === "") {
-        if (num1.innerHTML === "0") {
-            num1.innerHTML = "9"
-        } else {
-            if (num1.innerHTML.length <= 5) {
-                num1.innerHTML += "9"
+    if (answer.innerHTML === "") {
+        if (operator.innerHTML === "") {
+            if (num1.innerHTML === "0") {
+                num1.innerHTML = "9"
+            } else {
+                if (num1.innerHTML.length <= 5) {
+                    num1.innerHTML += "9"
+                }
             }
-        }
-    } else {
-        if (num2.innerHTML === "") {
-            num2.innerHTML = "9"
         } else {
-            if (num2.innerHTML.length <= 5) {
-                num2.innerHTML += "9"
+            if (num2.innerHTML === "") {
+                num2.innerHTML = "9"
+            } else {
+                if (num2.innerHTML.length <= 5) {
+                    num2.innerHTML += "9"
+                }
             }
         }
     }
@@ -249,18 +269,21 @@ function divide() {
 
 function decimal() {
 
-    if (num1.innerHTML.includes(".")) {
+    if (answer.innerHTML === "") {
 
-    } else {
-        num1.innerHTML += "."
-    }
+        if (num1.innerHTML.includes(".")) {
 
-    if (operator.innerHTML === "") {
+        } else {
+            num1.innerHTML += "."
+        }
 
-    } else if (num2.innerHTML.includes(".")) {
+        if (operator.innerHTML === "") {
 
-    } else {
-        num2.innerHTML += "."
+        } else if (num2.innerHTML.includes(".")) {
+
+        } else {
+            num2.innerHTML += "."
+        }
     }
 }
 
