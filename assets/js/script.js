@@ -236,34 +236,42 @@ function nine() {
 // add correct operators in the answer box
 
 function plus() {
-    if (num1.innerHTML === "0") {
+    if (answer.innerHTML === "") {
+        if (num1.innerHTML === "0") {
 
-    } else {
-        operator.innerHTML = "+"
+        } else {
+            operator.innerHTML = "+"
+        }
     }
 }
 
 function minus() {
-    if (num1.innerHTML === "0") {
+    if (answer.innerHTML === "") {
+        if (num1.innerHTML === "0") {
 
-    } else {
-        operator.innerHTML = "-"
+        } else {
+            operator.innerHTML = "-"
+        }
     }
 }
 
 function multiply() {
-    if (num1.innerHTML === "0") {
+    if (answer.innerHTML === "") {
+        if (num1.innerHTML === "0") {
 
-    } else {
-        operator.innerHTML = "x"
+        } else {
+            operator.innerHTML = "x"
+        }
     }
 }
 
 function divide() {
-    if (num1.innerHTML === "0") {
+    if (answer.innerHTML === "") {
+        if (num1.innerHTML === "0") {
 
-    } else {
-        operator.innerHTML = "÷"
+        } else {
+            operator.innerHTML = "÷"
+        }
     }
 }
 
