@@ -1,7 +1,8 @@
 # Project Goals
 [View the live project here.](https://bruzgus1.github.io/java-script-Milestone/)
 
-This website based calculator was created to handle basic, non complicated calculations
+This website based calculator was created to handle basic, 2 variable non complicated calculations.
+After the answer is calculated the user needs to press the button "C" to resume use of the calculator
 
 **User Goals:**
 
@@ -9,7 +10,7 @@ This website based calculator was created to handle basic, non complicated calcu
 
 
 **Site Owner Goals:**
-- To allow the user to calculate the equation they want
+- To allow the user to calculate the 2 variable equation they want
 
 ![how the website looks on diffrent devices](/assets/images/am-i-responsive.png)
 
@@ -18,7 +19,7 @@ This website based calculator was created to handle basic, non complicated calcu
 
 - **User Stories**
     - As a user I want to understand the purpose of the website.
-    - As a user I want to be able to add the equation I want
+    - As a user I want to be able to add the 2 variable equation I want
     - As a user I want to get the correct answer
 - **Design**
     - **Colour Scheme** 
@@ -35,7 +36,7 @@ This website based calculator was created to handle basic, non complicated calcu
 
 ![answer box screenshot](/assets/images/answer-box.png)
 
-    - The place where the user types in his equation that he wants calculated
+    - The place where the user types in his 2 variable equation that he wants calculated
     - The place where the user is shown the correct answer
 2. **The Buttons**
 
@@ -64,7 +65,7 @@ This website based calculator was created to handle basic, non complicated calcu
 **Testing User Stories from User Experience (UX) Section**
 - As a user I want to understand the purpose of the website.
     - The Home page that has the calculator shows what exactly is the purpose of this site
-- As a user I want to be able to add the equation I want
+- As a user I want to be able to add the 2 variable equation I want
     - The buttons on the calculator are easy to understand without needing any king of explanation
 - As a user I want to get the correct answer
     - Once the equation is written the user has to press the equal button to get the correct answer 
@@ -96,10 +97,11 @@ Development and initial testing took place on a MacBook Air in Chrome. Subsequen
 
 ## Bugs 
 
-1. When checking the console on Brave Browser the console gives an error, that does not happen on other browsers or in a private browse window
+1. Errors in console on page load in Brave Browser, that does not happen on other browsers or in a private browse window
 ![console bug screenshot](/assets/images/bug1.png)
 
 2. After getting the calculated answer the calculator breaks when you wanna calculate again, to fix this when the user clicks to clear the calculator, it reloads the entire page and sets the calculator back to square 1, fixing the issue
+
 3. In Safari the calculator does everything on the left side instead of the right 
 ![safari bug screenshot](/assets/images/bug2.png)
 
