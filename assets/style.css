@@ -312,7 +312,7 @@
 }
 
 
-@media screen and (max-width: 730px) {
+@media screen and (max-width: 1180px) {
     .container {
         height: 50em;
         padding-left: 0%;

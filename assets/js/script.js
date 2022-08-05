@@ -287,10 +287,14 @@ function decimal() {
 
         if (operator.innerHTML === "") {
 
-        } else if (num2.innerHTML.includes(".")) {
-
         } else {
-            num2.innerHTML += "."
+            if (num2.innerHTML.includes(".")) {
+
+            } else if (num2.innerHTML === "") {
+
+            } else {
+                num2.innerHTML += "."
+            }
         }
     }
 }
@@ -301,28 +305,28 @@ function calculateAnswer(num1, num2) {
     let number2 = parseFloat(document.getElementById("num2").textContent);
 
     if (operator.innerHTML === "+") {
-        document.getElementById("answer").innerHTML = parseFloat((number1 + number2).toFixed(2));
+        document.getElementById("answer").innerHTML = parseFloat((number1 + number2).toFixed(6));
 
         num1 = document.getElementById("num1").innerHTML = ""
         operator = document.getElementById("operator").innerHTML = ""
         num2 = document.getElementById("num2").innerHTML = ""
 
     } else if (operator.innerHTML === "-") {
-        document.getElementById("answer").innerHTML = parseFloat((number1 - number2).toFixed(2))
+        document.getElementById("answer").innerHTML = parseFloat((number1 - number2).toFixed(6))
 
         num1 = document.getElementById("num1").innerHTML = ""
         operator = document.getElementById("operator").innerHTML = ""
         num2 = document.getElementById("num2").innerHTML = ""
 
     } else if (operator.innerHTML === "x") {
-        document.getElementById("answer").innerHTML = parseFloat((number1 * number2).toFixed(2));
+        document.getElementById("answer").innerHTML = parseFloat((number1 * number2).toFixed(6));
 
         num1 = document.getElementById("num1").innerHTML = ""
         operator = document.getElementById("operator").innerHTML = ""
         num2 = document.getElementById("num2").innerHTML = ""
 
     } else if (operator.innerHTML === "÷") {
-        document.getElementById("answer").innerHTML = parseFloat((number1 / number2).toFixed(2));
+        document.getElementById("answer").innerHTML = parseFloat((number1 / number2).toFixed(6));
 
         num1 = document.getElementById("num1").innerHTML = ""
         operator = document.getElementById("operator").innerHTML = ""
@@ -331,7 +335,6 @@ function calculateAnswer(num1, num2) {
     } else {
 
     }
-
 }
 
 // squares the presented numbers
