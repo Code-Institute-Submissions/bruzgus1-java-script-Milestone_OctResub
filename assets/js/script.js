@@ -277,23 +277,50 @@ function divide() {
 
 function decimal() {
 
+    console.log(num1.innerText.length <= 5)
+    console.log(num2.innerText.length <= 5)
+
+    // checks if num1 length is acceptable before adding a decimal
     if (answer.innerHTML === "") {
 
-        if (num1.innerHTML.includes(".")) {
+        if (num1.innerText.length <= 5) {
+            if (operator.innerHTML != "") {
+                if (num2.innerHTML.includes(".")) {
 
-        } else {
-            num1.innerHTML += "."
+                } else {
+                    if (num2.innerHTML === "") {
+
+                    } else {
+                        num2.innerHTML += "."
+                    }
+                }
+            } else {
+                if (num1.innerHTML.includes(".")) {
+
+                } else {
+                    num1.innerHTML += "."
+                }
+            }
         }
 
-        if (operator.innerHTML === "") {
+        // checks if num2 length is acceptable before adding a decimal
+        if (num2.innerText.length <= 5) {
+            if (operator.innerHTML != "") {
+                if (num2.innerHTML.includes(".")) {
 
-        } else {
-            if (num2.innerHTML.includes(".")) {
+                } else {
+                    if (num2.innerHTML === "") {
 
-            } else if (num2.innerHTML === "") {
-
+                    } else {
+                        num2.innerHTML += "."
+                    }
+                }
             } else {
-                num2.innerHTML += "."
+                if (num1.innerHTML.includes(".")) {
+
+                } else {
+                    num1.innerHTML += "."
+                }
             }
         }
     }
