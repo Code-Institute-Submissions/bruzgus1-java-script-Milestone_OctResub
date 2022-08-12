@@ -312,7 +312,13 @@
 }
 
 
-@media screen and (max-width: 1080px) {
+@media screen and (max-width: 980px) {
+    .container .answer-box {
+        font-size: 300%;
+    }
+}
+
+@media screen and (max-width: 880px) {
     .container {
         height: 50em;
         padding-left: 0%;
@@ -323,5 +329,11 @@
         display: flex;
         justify-content: end;
         align-items: flex-end;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .container .answer-box {
+        font-size: 200%;
     }
 }

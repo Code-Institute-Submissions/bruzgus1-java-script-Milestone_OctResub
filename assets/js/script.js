@@ -283,17 +283,9 @@ function decimal() {
     // checks if num1 length is acceptable before adding a decimal
     if (answer.innerHTML === "") {
 
-        if (num1.innerText.length <= 5) {
+        if (num1.innerText.length <= 4) {
             if (operator.innerHTML != "") {
-                if (num2.innerHTML.includes(".")) {
 
-                } else {
-                    if (num2.innerHTML === "") {
-
-                    } else {
-                        num2.innerHTML += "."
-                    }
-                }
             } else {
                 if (num1.innerHTML.includes(".")) {
 
@@ -304,7 +296,7 @@ function decimal() {
         }
 
         // checks if num2 length is acceptable before adding a decimal
-        if (num2.innerText.length <= 5) {
+        if (num2.innerText.length <= 4) {
             if (operator.innerHTML != "") {
                 if (num2.innerHTML.includes(".")) {
 
@@ -314,12 +306,6 @@ function decimal() {
                     } else {
                         num2.innerHTML += "."
                     }
-                }
-            } else {
-                if (num1.innerHTML.includes(".")) {
-
-                } else {
-                    num1.innerHTML += "."
                 }
             }
         }
