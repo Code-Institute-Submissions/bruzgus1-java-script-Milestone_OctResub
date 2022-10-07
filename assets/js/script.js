@@ -353,47 +353,51 @@ function calculateAnswer(num1, num2) {
 // squares the presented numbers
 
 function squared() {
-    if (num1.innerHTML === "0") {
+    if (operator.innerHTML !== "" && num2.innerHTML === "") {
 
     } else {
-        if (answer.innerHTML === "") {
-            let number1 = parseFloat(document.getElementById("num1").textContent);
-            let number2 = parseFloat(document.getElementById("num2").textContent);
+        if (num1.innerHTML === "0") {
 
-            if (operator.innerHTML === "") {
-                document.getElementById("answer").innerHTML = Math.pow(number1, 2).toFixed(0);
+        } else {
+            if (answer.innerHTML === "") {
+                let number1 = parseFloat(document.getElementById("num1").textContent);
+                let number2 = parseFloat(document.getElementById("num2").textContent);
 
-                num1 = document.getElementById("num1").innerHTML = ""
-            } else if (operator.innerHTML === "+") {
-                document.getElementById("answer").innerHTML = Math.pow((number1 + number2), 2);
+                if (operator.innerHTML === "") {
+                    document.getElementById("answer").innerHTML = Math.pow(number1, 2).toFixed(0);
 
-                num1 = document.getElementById("num1").innerHTML = ""
-                operator = document.getElementById("operator").innerHTML = ""
-                num2 = document.getElementById("num2").innerHTML = ""
+                    num1 = document.getElementById("num1").innerHTML = ""
+                } else if (operator.innerHTML === "+") {
+                    document.getElementById("answer").innerHTML = Math.pow((number1 + number2), 2);
 
-            } else if (operator.innerHTML === "-") {
-                document.getElementById("answer").innerHTML = Math.pow((number1 - number2), 2);
+                    num1 = document.getElementById("num1").innerHTML = ""
+                    operator = document.getElementById("operator").innerHTML = ""
+                    num2 = document.getElementById("num2").innerHTML = ""
 
-                num1 = document.getElementById("num1").innerHTML = ""
-                operator = document.getElementById("operator").innerHTML = ""
-                num2 = document.getElementById("num2").innerHTML = ""
+                } else if (operator.innerHTML === "-") {
+                    document.getElementById("answer").innerHTML = Math.pow((number1 - number2), 2);
 
-            } else if (operator.innerHTML === "x") {
-                document.getElementById("answer").innerHTML = Math.pow((number1 * number2), 2);
+                    num1 = document.getElementById("num1").innerHTML = ""
+                    operator = document.getElementById("operator").innerHTML = ""
+                    num2 = document.getElementById("num2").innerHTML = ""
 
-                num1 = document.getElementById("num1").innerHTML = ""
-                operator = document.getElementById("operator").innerHTML = ""
-                num2 = document.getElementById("num2").innerHTML = ""
+                } else if (operator.innerHTML === "x") {
+                    document.getElementById("answer").innerHTML = Math.pow((number1 * number2), 2);
 
-            } else if (operator.innerHTML === "÷") {
-                document.getElementById("answer").innerHTML = Math.pow((number1 / number2), 2);
+                    num1 = document.getElementById("num1").innerHTML = ""
+                    operator = document.getElementById("operator").innerHTML = ""
+                    num2 = document.getElementById("num2").innerHTML = ""
 
-                num1 = document.getElementById("num1").innerHTML = ""
-                operator = document.getElementById("operator").innerHTML = ""
-                num2 = document.getElementById("num2").innerHTML = ""
+                } else if (operator.innerHTML === "÷") {
+                    document.getElementById("answer").innerHTML = Math.pow((number1 / number2), 2);
 
-            } else {
+                    num1 = document.getElementById("num1").innerHTML = ""
+                    operator = document.getElementById("operator").innerHTML = ""
+                    num2 = document.getElementById("num2").innerHTML = ""
 
+                } else {
+
+                }
             }
         }
     }
@@ -402,47 +406,51 @@ function squared() {
 // cubes the presented numbers
 
 function cubed() {
-    if (num1.innerHTML === "0") {
+    if (operator.innerHTML !== "" && num2.innerHTML === "") {
 
     } else {
-        if (answer.innerHTML === "") {
-            let number1 = parseFloat(document.getElementById("num1").textContent);
-            let number2 = parseFloat(document.getElementById("num2").textContent);
+        if (num1.innerHTML === "0") {
 
-            if (operator.innerHTML === "") {
-                document.getElementById("answer").innerHTML = Math.pow(number1, 3);
+        } else {
+            if (answer.innerHTML === "") {
+                let number1 = parseFloat(document.getElementById("num1").textContent);
+                let number2 = parseFloat(document.getElementById("num2").textContent);
 
-                num1 = document.getElementById("num1").innerHTML = ""
-            } else if (operator.innerHTML === "+") {
-                document.getElementById("answer").innerHTML = Math.pow((number1 + number2), 3);
+                if (operator.innerHTML === "") {
+                    document.getElementById("answer").innerHTML = Math.pow(number1, 3);
 
-                num1 = document.getElementById("num1").innerHTML = ""
-                operator = document.getElementById("operator").innerHTML = ""
-                num2 = document.getElementById("num2").innerHTML = ""
+                    num1 = document.getElementById("num1").innerHTML = ""
+                } else if (operator.innerHTML === "+") {
+                    document.getElementById("answer").innerHTML = Math.pow((number1 + number2), 3);
 
-            } else if (operator.innerHTML === "-") {
-                document.getElementById("answer").innerHTML = Math.pow((number1 - number2), 3);
+                    num1 = document.getElementById("num1").innerHTML = ""
+                    operator = document.getElementById("operator").innerHTML = ""
+                    num2 = document.getElementById("num2").innerHTML = ""
 
-                num1 = document.getElementById("num1").innerHTML = ""
-                operator = document.getElementById("operator").innerHTML = ""
-                num2 = document.getElementById("num2").innerHTML = ""
+                } else if (operator.innerHTML === "-") {
+                    document.getElementById("answer").innerHTML = Math.pow((number1 - number2), 3);
 
-            } else if (operator.innerHTML === "x") {
-                document.getElementById("answer").innerHTML = Math.pow((number1 * number2), 3);
+                    num1 = document.getElementById("num1").innerHTML = ""
+                    operator = document.getElementById("operator").innerHTML = ""
+                    num2 = document.getElementById("num2").innerHTML = ""
 
-                num1 = document.getElementById("num1").innerHTML = ""
-                operator = document.getElementById("operator").innerHTML = ""
-                num2 = document.getElementById("num2").innerHTML = ""
+                } else if (operator.innerHTML === "x") {
+                    document.getElementById("answer").innerHTML = Math.pow((number1 * number2), 3);
 
-            } else if (operator.innerHTML === "÷") {
-                document.getElementById("answer").innerHTML = Math.pow((number1 / number2), 3);
+                    num1 = document.getElementById("num1").innerHTML = ""
+                    operator = document.getElementById("operator").innerHTML = ""
+                    num2 = document.getElementById("num2").innerHTML = ""
 
-                num1 = document.getElementById("num1").innerHTML = ""
-                operator = document.getElementById("operator").innerHTML = ""
-                num2 = document.getElementById("num2").innerHTML = ""
+                } else if (operator.innerHTML === "÷") {
+                    document.getElementById("answer").innerHTML = Math.pow((number1 / number2), 3);
 
-            } else {
+                    num1 = document.getElementById("num1").innerHTML = ""
+                    operator = document.getElementById("operator").innerHTML = ""
+                    num2 = document.getElementById("num2").innerHTML = ""
 
+                } else {
+
+                }
             }
         }
     }
